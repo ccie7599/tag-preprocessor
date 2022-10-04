@@ -436,7 +436,7 @@
         "method": "POST",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "http://127.0.0.1:1880/red/tag",
+        "url": "http://127.0.0.1:1880/tag",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -478,9 +478,26 @@
         "y": 260,
         "wires": [
             [
-                "15766d56f4a99390"
+                "15766d56f4a99390",
+                "a6bb428d7f6cc4b2"
             ]
         ]
+    },
+    {
+        "id": "a6bb428d7f6cc4b2",
+        "type": "debug",
+        "z": "781375c9aed44e85",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 260,
+        "wires": []
     },
     {
         "id": "ac32e59589401b20",
@@ -619,7 +636,7 @@
         "method": "POST",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "http://127.0.0.1:1880/red/repost",
+        "url": "http://127.0.0.1:1880/repost",
         "tls": "",
         "persist": false,
         "proxy": "",
@@ -649,7 +666,7 @@
         "method": "GET",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "http://127.0.0.1:1880/red/kafka",
+        "url": "http://127.0.0.1:1880/kafka",
         "tls": "",
         "persist": false,
         "proxy": "",
